@@ -8,7 +8,7 @@ public class UsCurrencyChecker {
          * \s? - matches a optional white space
          * \d+ - matches one or more digits
          * (\.\d{1,2})?
-         *  - \. matches a '.' but ignores
+         *  - \. matches a '.'
          *  - \d{1,2} - \d matches 0-9, {1-2} is a quantifier that matches between 1 or 2 of the preceding token
          *  - ? - optional (0 or 1)
          */
